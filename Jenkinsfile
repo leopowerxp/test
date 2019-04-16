@@ -3,6 +3,8 @@ node{
     sh """
       pwd
       ls
+      cd ..
+      tree
     """
   }
 }
