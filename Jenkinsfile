@@ -1,5 +1,8 @@
 node{
   stage("TEST"){
-    println "Hello !!"
+    sh """
+      pwd
+      ls
+    """
   }
 }
