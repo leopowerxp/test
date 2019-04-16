@@ -5,6 +5,7 @@ node{
       ls
       cd ..
       tree
+      cat ${WORKSPACE}@script/README.md
     """
   }
 }
